@@ -1,0 +1,7 @@
+---
+ - name: test the ansible
+   hosts: foreman.varadsp.com
+   gather_facts: yes
+   tasks:
+     - name: test the file
+       copy: src=/tmp/aaa dest=/etc/ 
