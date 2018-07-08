@@ -167,7 +167,7 @@ Refer to foreman documentation to know more
 
 >  Contributors/People
 
-| <a href="https://github.com/VARADSP" target="_blank">**Varad Parlikar**</a> |<a href="https://github.com/VARADSP" target="_blank">`https://github.com/VARADSP`</a>|  [![FVCproductions](vsp.jpg)](https://github.com/VARADSP)    
+| <a href="https://github.com/VARADSP" target="_blank">**Varad Parlikar**</a> |<a href="https://github.com/VARADSP" target="_blank">`https://github.com/VARADSP`</a>|  [![VSPContributions](vsp.jpg)](https://github.com/VARADSP)    
 |  
 
 
@@ -192,7 +192,7 @@ Reach out to me at one of the following places!
 
 ## Donations (Optional)
 
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
+[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/vsp/)
 
 
 ---
@@ -202,5 +202,5 @@ Reach out to me at one of the following places!
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">VSPProductions</a>.
+- Copyright 2018 © <a href="http://debuggingbug.wordpress.com" target="_blank">VSPContributions</a>.
 
