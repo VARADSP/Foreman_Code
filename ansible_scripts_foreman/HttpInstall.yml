@@ -1,0 +1,7 @@
+---
+- hosts: foreman.varadsp.com
+  tasks: 
+  - name: Install a httpd pkg
+    yum: name=httpd state=latest
+  - name: start a httpd service
+    service: name=httpd state=restarted
