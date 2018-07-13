@@ -165,7 +165,7 @@ Refer to foreman documentation to know more
 
 >  Contributors/People
 
-| <a href="https://github.com/VARADSP" target="_blank">**Varad Parlikar**</a> |<a href="https://github.com/VARADSP" target="_blank">`https://github.com/VARADSP`</a>|  [![VSPContributions](vsp.jpg)](https://github.com/VARADSP)    
+| <a href="https://github.com/VARADSP" target="_blank">**Varad Parlikar**</a> |<a href="https://github.com/VARADSP" target="_blank">`https://github.com/VARADSP`</a>|  (https://github.com/VARADSP)    
 |  
 
 
