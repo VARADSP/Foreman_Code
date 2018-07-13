@@ -1,0 +1,455 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli package.
+#
+# Translators:
+# Automatically generated, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli 0.14.pre.develop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-19 01:11+0100\n"
+"PO-Revision-Date: 2018-03-27 18:07+0000\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/foreman/foreman/"
+"language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Unable to find hostname in %s."
+msgstr ""
+
+msgid "CA certificate for %{uri} was stored to %{file}."
+msgstr ""
+
+msgid ""
+"Now hammer can use the downloaded certificate to verify SSL connection to "
+"the server."
+msgstr ""
+
+msgid ""
+"It will be used automatically when ssl_ca_path and ssl_ca_file options are "
+"not set."
+msgstr ""
+
+msgid ""
+"Be aware that hammer cannot verify whether the certificate is correct and "
+"you should verify its authenticity."
+msgstr ""
+
+msgid "You can display the certificate content with"
+msgstr ""
+
+msgid ""
+"As root you can also install the certificate and update the system-wide list "
+"of trusted CA certificates as follows:"
+msgstr ""
+
+msgid "Couldn't parse URI '%s'."
+msgstr ""
+
+msgid ""
+"The CA certificate for %{uri} couldn't be downloaded. No CA cert was found."
+msgstr ""
+
+msgid "Make sure your server sends cert chain including the CA."
+msgstr ""
+
+msgid "To see the actual chain you can use openssl command"
+msgstr ""
+
+msgid "You can also download the certificate manually and store it as %s."
+msgstr ""
+
+msgid ""
+"If you choose any other location set the ssl_ca_path or ssl_ca_file "
+"configuration options appropriately."
+msgstr ""
+
+msgid "Fetching the CA certificate failed:"
+msgstr ""
+
+msgid "The service at the given URI does not accept SSL connections."
+msgstr ""
+
+msgid "Perhaps you meant to connect to '%s'?"
+msgstr ""
+
+msgid "Too many arguments."
+msgstr ""
+
+msgid "Option '%s' is required."
+msgstr ""
+
+msgid "Option '%{opt}' (or env %{env}) is required."
+msgstr ""
+
+msgid "Option '%{swt}': %{msg}."
+msgstr ""
+
+msgid "Parameter '%{pmt}': %{msg}."
+msgstr ""
+
+msgid "%{env}: %{msg}."
+msgstr ""
+
+msgid "Unrecognised option '%s'."
+msgstr ""
+
+msgid "No such sub-command '%s'."
+msgstr ""
+
+msgid "No value provided."
+msgstr ""
+
+msgid "Illegal quoting in %{buffer}"
+msgstr ""
+
+msgid ""
+"Couldn't create %s. Please create the directory before setting defaults."
+msgstr ""
+
+msgid "Defaults management"
+msgstr "預設值管理"
+
+msgid "List all the providers"
+msgstr "列出所有供應者"
+
+msgid "Provider"
+msgstr "供應商"
+
+msgid "Supported defaults"
+msgstr "已支援的預設值"
+
+msgid "Description"
+msgstr "說明"
+
+msgid "List all the default parameters"
+msgstr "列出所有預設參數"
+
+msgid "Parameter"
+msgstr "參數"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Delete a default param"
+msgstr "刪除預設參數"
+
+msgid "The name of the default option"
+msgstr "預設選項的名稱"
+
+msgid "Add a default parameter to config"
+msgstr "新增預設參數至配置"
+
+msgid "The name of the default option (e.g. organization_id)"
+msgstr ""
+
+msgid "The value for the default option"
+msgstr "預設選項的值"
+
+msgid ""
+"The name of the provider providing the value. For list available providers "
+"see `hammer defaults providers`"
+msgstr ""
+
+msgid ""
+"Added %{key_val} default-option with value that will be generated from the "
+"server."
+msgstr "已新增 %{key_val} 預設選項與預設值，這是由伺服器所產生。"
+
+msgid "Added %{key_val} default-option with value %{val_val}."
+msgstr "已新增 %{key_val} 預設選項，數值為 %{val_val}。"
+
+msgid ""
+"Provider %{name} was not found. See `hammer defaults providers` for "
+"available providers."
+msgstr ""
+
+msgid ""
+"The param name is not supported by provider. See `hammer defaults providers` "
+"for supported params."
+msgstr ""
+"供應者並不支援此參數名稱。欲知支援的參數名稱，請參閱 `hammer defaults "
+"providers`。"
+
+msgid "%{param} was deleted successfully."
+msgstr "已成功刪除 %{param}。"
+
+msgid "You must specify value or a provider name, can't specify both."
+msgstr ""
+
+msgid "Couldn't find the requested param in %s."
+msgstr "在 %s 中找不到要求的參數。"
+
+msgid "Error: %s"
+msgstr "錯誤：%s"
+
+msgid "Error: %{message}"
+msgstr "錯誤：%{message}"
+
+msgid "See: '%{path} --help'."
+msgstr ""
+
+msgid "SSL error"
+msgstr ""
+
+msgid "SSL certificate verification failed"
+msgstr ""
+
+msgid "is the server down?"
+msgstr "伺服器是否沒有在運作？"
+
+msgid ""
+"was '%s' run on the server when using apipie cache? (typical production "
+"settings)"
+msgstr "使用 apipie 快取時 '%s' 是否有在伺服器上運作？（典型的生產設定）"
+
+msgid "Could not load the API description from the server"
+msgstr "無法從伺服器載入 API 描述"
+
+msgid "Missing arguments for %s"
+msgstr "%s 缺少了引數"
+
+msgid "Format output in markdown"
+msgstr ""
+
+msgid "Hammer CLI help"
+msgstr ""
+
+msgid "Print help for all hammer commands"
+msgstr ""
+
+msgid "No permissions to create log dir %s."
+msgstr ""
+
+msgid "File %s not writeable, won't log anything to the file!"
+msgstr "%s 檔案不允許寫入，將不會記錄任何資料至此檔案中！"
+
+msgid "Be verbose"
+msgstr ""
+
+msgid "Show debugging output"
+msgstr ""
+
+msgid "Force reload of Apipie cache"
+msgstr ""
+
+msgid "Path to custom config file"
+msgstr ""
+
+msgid "Username to access the remote system"
+msgstr ""
+
+msgid "Password to access the remote system"
+msgstr ""
+
+msgid "Remote system address"
+msgstr ""
+
+msgid "Configure SSL verification of remote system"
+msgstr ""
+
+msgid "Configure the file containing the CA certificates"
+msgstr ""
+
+msgid "Configure the directory containing the CA certificates"
+msgstr ""
+
+msgid "Configure the client's public certificate"
+msgstr ""
+
+msgid "Configure the client's private key"
+msgstr ""
+
+msgid ""
+"Use standard authentication in addition to client certificate authentication"
+msgstr ""
+
+msgid "Fetch CA certificate from server and exit"
+msgstr ""
+
+msgid "Show version"
+msgstr ""
+
+msgid "unknown version"
+msgstr "不明的版本"
+
+msgid "Show ids of associated resources"
+msgstr "顯示相聯資源的 id"
+
+msgid "Explicitly turn interactive mode on/off"
+msgstr "明確開啓或關閉互動式模式"
+
+msgid "Hide headers from output"
+msgstr ""
+
+msgid "Output as CSV (same as --output=csv)"
+msgstr "輸出為 CSV（與 --output=csv 相同）"
+
+msgid "Set output format. One of [%s]"
+msgstr "設定輸出模式。[%s] 之一"
+
+msgid "Character to separate the values"
+msgstr "用來隔開值的字元"
+
+msgid "Get list of possible endings"
+msgstr "取得一列可能的結尾"
+
+msgid "Warning: An error occured while loading module %s."
+msgstr ""
+
+msgid "Error: Some of the required modules are disabled in configuration: %s."
+msgstr ""
+
+msgid "Comma-separated list of key=value"
+msgstr ""
+
+msgid ""
+"Value must be defined as a comma-separated list of key=value or valid JSON."
+msgstr ""
+
+msgid ""
+"Comma separated list of values. Values containing comma should be quoted or "
+"escaped with backslash"
+msgstr ""
+
+msgid "Numeric value is required."
+msgstr ""
+
+msgid "One of true/false, yes/no, 1/0"
+msgstr ""
+
+msgid "Value must be one of true/false, yes/no, 1/0."
+msgstr ""
+
+msgid "Unable to parse JSON input."
+msgstr ""
+
+msgid "Possible value(s): %s"
+msgstr "可能的值：%s"
+
+msgid "Value must be %s."
+msgstr ""
+
+msgid "Value must be one of %s."
+msgstr ""
+
+msgid "Date and time in YYYY-MM-DD HH:MM:SS or ISO 8601 format"
+msgstr "日期與時間，格式為 YYYY-MM-DD HH:MM:SS 或是 ISO 8601 格式"
+
+msgid "'%s' is not a valid date."
+msgstr ""
+
+msgid "Any combination (comma separated list) of '%s'"
+msgstr "任何（以逗號隔開的）「%s」的組合"
+
+msgid "Value must be a combination of '%s'."
+msgstr ""
+
+msgid "Warning: Option %{option} is deprecated. %{message}"
+msgstr "警告：選項 %{option} 已淘汰。%{message}"
+
+msgid "Deprecated: %{deprecated_msg}"
+msgstr ""
+
+msgid "%{flag} is deprecated: %{deprecated_msg}"
+msgstr ""
+
+msgid "Can be specified multiple times."
+msgstr ""
+
+msgid ", or"
+msgstr ""
+
+msgid "Default:"
+msgstr ""
+
+msgid "Environment variable HAMMER_NIL can not be empty."
+msgstr ""
+
+msgid "Message"
+msgstr "訊息"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "Page %{page} of %{total} (use --page and --per-page for navigation)."
+msgstr ""
+
+msgid "no"
+msgstr "否"
+
+msgid "yes"
+msgstr "是"
+
+msgid "Warning: Couldn't load configuration file %{path}: %{message}."
+msgstr ""
+
+msgid "Print help for commands"
+msgstr "印出指令的說明"
+
+msgid "Exit interactive shell"
+msgstr "退出互動式 shell"
+
+msgid "Welcome to the hammer interactive shell."
+msgstr ""
+
+msgid "Type 'help' for usage information."
+msgstr ""
+
+msgid "Interactive shell"
+msgstr "互動式 shell"
+
+msgid "SSL client certificate is set but the key is not."
+msgstr ""
+
+msgid "SSL client key is set but the certificate is not."
+msgstr ""
+
+msgid "SSL client authentication disabled."
+msgstr ""
+
+msgid "Could't read SSL client certificate %s."
+msgstr ""
+
+msgid "Could't read SSL client key %s."
+msgstr ""
+
+msgid ""
+"Can't replace subcommand %<name>s (%<existing_class>s) with %<name>s "
+"(%<new_class>s)."
+msgstr ""
+
+msgid "Unknown option name '%s'."
+msgstr ""
+
+msgid "You can't set all options %s at one time."
+msgstr ""
+
+msgid "Options %s are required."
+msgstr ""
+
+msgid "You can't set option %s."
+msgstr ""
+
+msgid "Option %s is required."
+msgstr ""
+
+msgid "You can't set any of options %s."
+msgstr ""
+
+msgid "At least one of options %s is required."
+msgstr ""
+
+msgid "One of options %s is required."
+msgstr ""
+
+msgid "Only one of options %s can be set."
+msgstr ""

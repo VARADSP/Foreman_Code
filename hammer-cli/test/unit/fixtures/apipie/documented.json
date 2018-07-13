@@ -1,0 +1,194 @@
+{
+    "docs": {
+        "name": "Documented",
+        "api_url": "/api",
+        "version": "v2",
+        "short_description": null,
+        "full_description": null,
+        "doc_url": "/apidoc/v2/documented",
+        "resources": {
+            "documented": {
+                "methods": [
+                    {
+                        "name": "index",
+                        "examples": [],
+                        "errors": [],
+                        "params": [
+                            {
+                                "allow_null": false,
+                                "name": "se_arch_val-ue",
+                                "full_name": "se_arch_val-ue_full_name",
+                                "validator": "Must be String",
+                                "description": "<p>filter results</p>",
+                                "expected_type": "string",
+                                "required": false
+                            }
+                        ],
+                        "full_description": ""
+                    },
+                    {
+                        "name": "action_with_ids",
+                        "examples": [],
+                        "errors": [],
+                        "params": [
+                            {
+                                "name": "name",
+                                "allow_null": false,
+                                "full_name": "name",
+                                "validator": "Must be String",
+                                "expected_type": "string",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "organization_id",
+                                "allow_null": false,
+                                "full_name": "organization_id",
+                                "validator": "Must be number",
+                                "expected_type": "number",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "organization_ids",
+                                "allow_null": false,
+                                "full_name": "organization_ids",
+                                "validator": "Array of numbers",
+                                "expected_type": "array",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "compute_resource_id",
+                                "allow_null": false,
+                                "full_name": "compute_resource_id",
+                                "validator": "Must be number",
+                                "expected_type": "number",
+                                "description": "",
+                                "required": false
+                            }
+                        ],
+                        "full_description": ""
+                    },
+                    {
+                        "name": "create",
+                        "examples": [],
+                        "errors": [],
+                        "params": [
+                            {
+                                "allow_null": false,
+                                "name": "documented",
+                                "full_name": "documented",
+                                "validator": "Must be a Hash",
+                                "description": "",
+                                "expected_type": "hash",
+                                "required": true,
+                                "params": [
+                                    {
+                                        "name": "name",
+                                        "allow_null": false,
+                                        "full_name": "documented[name]",
+                                        "validator": "Must be String",
+                                        "expected_type": "string",
+                                        "description": "",
+                                        "required": false
+                                    },
+                                    {
+                                        "name": "provider",
+                                        "allow_null": false,
+                                        "full_name": "documented[provider]",
+                                        "validator": "Must be String",
+                                        "expected_type": "string",
+                                        "description": "<p>Providers include Libvirt, Ovirt, EC2, Vmware, Openstack, Rackspace</p>",
+                                        "required": false
+                                    },
+                                    {
+                                        "name": "array_param",
+                                        "allow_null": false,
+                                        "full_name": "documented[array_param]",
+                                        "validator": "Must be Array",
+                                        "expected_type": "array",
+                                        "description": "",
+                                        "required": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "full_description": ""
+                    },
+                    {
+                        "name": "typed_params",
+                        "examples": [],
+                        "errors": [],
+                        "params": [
+                            {
+                                "name": "array_param",
+                                "allow_null": false,
+                                "full_name": "documented[array_param]",
+                                "validator": "Must be Array",
+                                "expected_type": "array",
+                                "description": "",
+                                "required": true
+                            },
+                            {
+                                "name": "boolean_param",
+                                "allow_null": false,
+                                "full_name": "documented[boolean_param]",
+                                "validator": "Must be 'true' or 'false' or '1' or '0'",
+                                "expected_type": "boolean",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "enum_param",
+                                "full_name": "documented[enum_param]",
+                                "allow_nil": true,
+                                "validator": "Must be one of: one, two, three.",
+                                "expected_type": "string",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "nested_elements_param",
+                                "full_name": "documented[nested_elements_param]",
+                                "allow_nil": true,
+                                "validator": "Must be an Array of nested elements",
+                                "expected_type": "array",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "coded_enum_param",
+                                "full_name": "documented[coded_enum_param]",
+                                "allow_nil": true,
+                                "validator": "Must be one of: <code>string</code>, <code>boolean</code>, <code>integer</code>, <code>real</code>, <code>array</code>, <code>hash</code>, <code>yaml</code>, <code>json</code>.",
+                                "expected_type": "string",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "numeric_param",
+                                "allow_null": false,
+                                "full_name": "documented[numeric_param]",
+                                "validator": "Must be Number",
+                                "expected_type": "numeric",
+                                "description": "",
+                                "required": false
+                            },
+                            {
+                                "name": "integer_param",
+                                "allow_null": false,
+                                "full_name": "documented[numeric_param]",
+                                "validator": "Integer",
+                                "expected_type": "numeric",
+                                "description": "",
+                                "required": false
+                            }
+                        ],
+                        "full_description": ""
+                    }
+                ]
+            }
+        }
+    }
+}

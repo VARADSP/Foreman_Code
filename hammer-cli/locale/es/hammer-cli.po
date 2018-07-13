@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli package.
+#
+# Translators:
+# Dominic Cleal <dcleal@redhat.com>, 2014
+# francis <hackgo@gmail.com>, 2014
+# Sergio Ocón <sergio.ocon@redhat.com>, 2014-2015
+# Sergio Ocón <sergio.ocon@redhat.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli 0.14.pre.develop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-19 01:11+0100\n"
+"PO-Revision-Date: 2018-03-27 18:00+0000\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/foreman/foreman/language/"
+"es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Unable to find hostname in %s."
+msgstr "No se encontró el nombre del host en %s."
+
+msgid "CA certificate for %{uri} was stored to %{file}."
+msgstr "El certificado CA de %{uri} se almacenó en %{file}."
+
+msgid ""
+"Now hammer can use the downloaded certificate to verify SSL connection to "
+"the server."
+msgstr ""
+"Ahora, hammer puede usar el certificado de descarga para verificar la "
+"conexión SSL con el servidor."
+
+msgid ""
+"It will be used automatically when ssl_ca_path and ssl_ca_file options are "
+"not set."
+msgstr ""
+"Se utilizará en forma automática cuando no se encuentren configuradas las "
+"opciones ca_path y ssl_ca_file."
+
+msgid ""
+"Be aware that hammer cannot verify whether the certificate is correct and "
+"you should verify its authenticity."
+msgstr ""
+"Tenga en cuenta que hammer no puede verificar si el certificado es correcto. "
+"Usted debería corroborar su autenticidad."
+
+msgid "You can display the certificate content with"
+msgstr "Puede mostrar el contenido del certificado con"
+
+msgid ""
+"As root you can also install the certificate and update the system-wide list "
+"of trusted CA certificates as follows:"
+msgstr ""
+"Como origen, también puede instalar el certificado y actualizar la lista "
+"system-wide de los certificados CA confiables, a saber:"
+
+msgid "Couldn't parse URI '%s'."
+msgstr "No fue posible analizar la URI '%s'."
+
+msgid ""
+"The CA certificate for %{uri} couldn't be downloaded. No CA cert was found."
+msgstr ""
+"No se pudo descargar el certificado CA para %{uri}. No se halló ningún "
+"certificado CA."
+
+msgid "Make sure your server sends cert chain including the CA."
+msgstr ""
+"Asegúrese de que el servidor envíe una cadena de certificados que incluya CA."
+
+msgid "To see the actual chain you can use openssl command"
+msgstr "Para ver la cadena real, puede utilizar el comando openssl."
+
+msgid "You can also download the certificate manually and store it as %s."
+msgstr ""
+"También puede descargar el certificado manualmente y guardarlo como %s."
+
+msgid ""
+"If you choose any other location set the ssl_ca_path or ssl_ca_file "
+"configuration options appropriately."
+msgstr ""
+"Si opta por cualquier otra ubicación, defina las opciones de configuración "
+"de ssl_ca_path o ssl_ca_file según corresponda."
+
+msgid "Fetching the CA certificate failed:"
+msgstr "Ocurrió un error al obtener el certificado CA:"
+
+msgid "The service at the given URI does not accept SSL connections."
+msgstr "El servicio en el URI establecido no acepta conexiones SSL."
+
+msgid "Perhaps you meant to connect to '%s'?"
+msgstr "¿Tal vez quiso conectarse a '%s'?"
+
+msgid "Too many arguments."
+msgstr "Demasiados argumentos."
+
+msgid "Option '%s' is required."
+msgstr "Se requiere la opción '%s'."
+
+msgid "Option '%{opt}' (or env %{env}) is required."
+msgstr "Se requiere la opción '%{opt}' (o entorno %{env})."
+
+msgid "Option '%{swt}': %{msg}."
+msgstr "Opción '%{swt}': %{msg}."
+
+msgid "Parameter '%{pmt}': %{msg}."
+msgstr "Parámetro '%{pmt}': %{msg}."
+
+msgid "%{env}: %{msg}."
+msgstr "%{env}: %{msg}."
+
+msgid "Unrecognised option '%s'."
+msgstr "Opción desconocida '%s'."
+
+msgid "No such sub-command '%s'."
+msgstr "El subcomando '%s' no existe."
+
+msgid "No value provided."
+msgstr "No se proporcionó un valor."
+
+msgid "Illegal quoting in %{buffer}"
+msgstr "Cita ilegal en %{buffer}"
+
+msgid ""
+"Couldn't create %s. Please create the directory before setting defaults."
+msgstr ""
+"No se pudo crear %s. Cree el directorio antes de configurar los valores "
+"predeterminados."
+
+msgid "Defaults management"
+msgstr "Administración de valores predeterminados"
+
+msgid "List all the providers"
+msgstr "Listar todos los proveedores"
+
+msgid "Provider"
+msgstr "Proveedor"
+
+msgid "Supported defaults"
+msgstr "Valores predeterminados admitidos"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "List all the default parameters"
+msgstr "Listar todos los parámetros predeterminados"
+
+msgid "Parameter"
+msgstr "Parámetro"
+
+msgid "Value"
+msgstr "Valor"
+
+msgid "Delete a default param"
+msgstr "Eliminar un parámetros predeterminado"
+
+msgid "The name of the default option"
+msgstr "El nombre de la opción predeterminada"
+
+msgid "Add a default parameter to config"
+msgstr "Agregar un parámetro predeterminado a la configuración"
+
+msgid "The name of the default option (e.g. organization_id)"
+msgstr "El nombre de la opción predeterminada (p. ej., organization_id)"
+
+msgid "The value for the default option"
+msgstr "El valor de la opción predeterminada"
+
+msgid ""
+"The name of the provider providing the value. For list available providers "
+"see `hammer defaults providers`"
+msgstr ""
+"El nombre del proveedor que proporciona el valor. Para ver los proveedores "
+"disponibles, consulte 'proveedores predeterminados de hammer'"
+
+msgid ""
+"Added %{key_val} default-option with value that will be generated from the "
+"server."
+msgstr ""
+"La opción predeterminada %{key_val} agregada con valor que se generará a "
+"partir del servidor."
+
+msgid "Added %{key_val} default-option with value %{val_val}."
+msgstr "Opción predeterminada %{key_val} agregada con el valor %{val_val}."
+
+msgid ""
+"Provider %{name} was not found. See `hammer defaults providers` for "
+"available providers."
+msgstr ""
+"No se encontró el proveedor %{name}. Consulte “proveedores predeterminados "
+"de martillos” para conocer los proveedores disponibles."
+
+msgid ""
+"The param name is not supported by provider. See `hammer defaults providers` "
+"for supported params."
+msgstr ""
+"El proveedor no admite el nombre del parámetro. Consulte `proveedores "
+"predeterminados de martillos` para conocer los parámetros admitidos."
+
+msgid "%{param} was deleted successfully."
+msgstr "%{param} se eliminó correctamente."
+
+msgid "You must specify value or a provider name, can't specify both."
+msgstr ""
+"Debe especificar un valor o nombre de proveedor; no puede especificar ambos."
+
+msgid "Couldn't find the requested param in %s."
+msgstr "No se pudo encontrar el parámetro solicitado en %s."
+
+msgid "Error: %s"
+msgstr "Error: %s"
+
+msgid "Error: %{message}"
+msgstr "Error: %{message}"
+
+msgid "See: '%{path} --help'."
+msgstr "Ver: '%{path} --help'."
+
+msgid "SSL error"
+msgstr "Error de SSL"
+
+msgid "SSL certificate verification failed"
+msgstr "Ocurrió un error en la verificación del certificado SSL"
+
+msgid "is the server down?"
+msgstr "¿Está apagado el servidor?"
+
+msgid ""
+"was '%s' run on the server when using apipie cache? (typical production "
+"settings)"
+msgstr ""
+"¿Se ejecutó '%s' en el servidor al usar la caché apipe? (configuración "
+"típica de producción)"
+
+msgid "Could not load the API description from the server"
+msgstr "No se pudo cargar la descripción de la API desde el servidor"
+
+msgid "Missing arguments for %s"
+msgstr "Faltan argumentos para %s"
+
+msgid "Format output in markdown"
+msgstr "Salida de formato en marcado"
+
+msgid "Hammer CLI help"
+msgstr "Ayuda de Hammer CLI"
+
+msgid "Print help for all hammer commands"
+msgstr "Imprimir ayuda para todos los comandos de hammer"
+
+msgid "No permissions to create log dir %s."
+msgstr "No existen permisos para crear el directorio de registro %s."
+
+msgid "File %s not writeable, won't log anything to the file!"
+msgstr ""
+"El archivo %s no tiene acceso de escritura, no se registrará ningún "
+"contenido en él."
+
+msgid "Be verbose"
+msgstr "Sea detallado"
+
+msgid "Show debugging output"
+msgstr "Mostrar salida de depuración"
+
+msgid "Force reload of Apipie cache"
+msgstr "Forzar recarga de caché Apipe"
+
+msgid "Path to custom config file"
+msgstr "Ruta al archivo de configuración personalizado"
+
+msgid "Username to access the remote system"
+msgstr "Nombre de usuario para acceder al sistema remoto"
+
+msgid "Password to access the remote system"
+msgstr "Contraseña para acceder al sistema remoto"
+
+msgid "Remote system address"
+msgstr "Dirección del sistema remoto"
+
+msgid "Configure SSL verification of remote system"
+msgstr "Configurar verificación de SSL del sistema remoto"
+
+msgid "Configure the file containing the CA certificates"
+msgstr "Configurar el archivo que contiene los certificados CA"
+
+msgid "Configure the directory containing the CA certificates"
+msgstr "Configurar el directorio que contiene los certificados CA"
+
+msgid "Configure the client's public certificate"
+msgstr "Configurar el certificado público del cliente"
+
+msgid "Configure the client's private key"
+msgstr "Configurar la clave privada del cliente"
+
+msgid ""
+"Use standard authentication in addition to client certificate authentication"
+msgstr ""
+"Utilizar la autenticación estándar además de la autenticación del "
+"certificado del cliente"
+
+msgid "Fetch CA certificate from server and exit"
+msgstr "Obtener certificado CA del servidor y salir"
+
+msgid "Show version"
+msgstr "Mostrar versión"
+
+msgid "unknown version"
+msgstr "Versión desconocida"
+
+msgid "Show ids of associated resources"
+msgstr "Mostrar ID de recursos asociados"
+
+msgid "Explicitly turn interactive mode on/off"
+msgstr "Activar/desactivar explícitamente el modo interactivo"
+
+msgid "Hide headers from output"
+msgstr "Ocultar encabezados de la salida"
+
+msgid "Output as CSV (same as --output=csv)"
+msgstr "Exportar como CSV (equivale a --output=csv)"
+
+msgid "Set output format. One of [%s]"
+msgstr "Establecer formato de salida. Uno de [%s]"
+
+msgid "Character to separate the values"
+msgstr "Caracter de separación de valores"
+
+msgid "Get list of possible endings"
+msgstr "Obtener lista finales posibles"
+
+msgid "Warning: An error occured while loading module %s."
+msgstr "Advertencia: Ocurrió un error al cargar el módulo %s."
+
+msgid "Error: Some of the required modules are disabled in configuration: %s."
+msgstr ""
+"Error: Algunos de los módulos requeridos están desactivados en la "
+"configuración: %s. "
+
+msgid "Comma-separated list of key=value"
+msgstr "Lista de pares clave=valor separados por comas"
+
+msgid ""
+"Value must be defined as a comma-separated list of key=value or valid JSON."
+msgstr ""
+"El valor debe definirse como una lista de pares clave=valor o formatos JSON "
+"válidos  separados por comas."
+
+msgid ""
+"Comma separated list of values. Values containing comma should be quoted or "
+"escaped with backslash"
+msgstr ""
+"Lista de valores separados por comas. Los valores que contienen comas "
+"deberían entrecomillarse o se les debería agregar una barra invertida."
+
+msgid "Numeric value is required."
+msgstr "El valor numérico es obligatorio."
+
+msgid "One of true/false, yes/no, 1/0"
+msgstr "Uno de verdadero/falso, sí/no, 1/0"
+
+msgid "Value must be one of true/false, yes/no, 1/0."
+msgstr "El valor debe ser uno de verdadero/falso, sí/no, 1/0."
+
+msgid "Unable to parse JSON input."
+msgstr "No se puede analizar la entrada JSON."
+
+msgid "Possible value(s): %s"
+msgstr "Valores posibles: %s"
+
+msgid "Value must be %s."
+msgstr "El valor debe ser %s."
+
+msgid "Value must be one of %s."
+msgstr "El valor debe ser uno de %s."
+
+msgid "Date and time in YYYY-MM-DD HH:MM:SS or ISO 8601 format"
+msgstr "Fecha y hora en AAAA-MM-DD HH:MM:SS o formato ISO 8601"
+
+msgid "'%s' is not a valid date."
+msgstr "'%s' no es una fecha válida."
+
+msgid "Any combination (comma separated list) of '%s'"
+msgstr "Cualquier combinación (lista separada por comas) de '%s'"
+
+msgid "Value must be a combination of '%s'."
+msgstr "El valor debe ser una combinación de '%s'."
+
+msgid "Warning: Option %{option} is deprecated. %{message}"
+msgstr "Advertencia: La opción %{option} es obsoleta. %{message}"
+
+msgid "Deprecated: %{deprecated_msg}"
+msgstr "Obsoleto: %{deprecated_msg}"
+
+msgid "%{flag} is deprecated: %{deprecated_msg}"
+msgstr "%{flag} es obsoleto: %{deprecated_msg}"
+
+msgid "Can be specified multiple times."
+msgstr "Se puede especificar varias veces."
+
+msgid ", or"
+msgstr ", o"
+
+msgid "Default:"
+msgstr "Predeterminado:"
+
+msgid "Environment variable HAMMER_NIL can not be empty."
+msgstr "La variable de entorno HAMMER_NIL no puede estar vacía."
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Page %{page} of %{total} (use --page and --per-page for navigation)."
+msgstr ""
+"Página %{page} de %{total} (utilizar página y/por página para la navegación)."
+
+msgid "no"
+msgstr "No"
+
+msgid "yes"
+msgstr "Sí"
+
+msgid "Warning: Couldn't load configuration file %{path}: %{message}."
+msgstr ""
+"Advertencia: no se pudo cargar el archivo de configuración %{path}: "
+"%{message}."
+
+msgid "Print help for commands"
+msgstr "Imprimir ayuda para comandos"
+
+msgid "Exit interactive shell"
+msgstr "Salir del shell interactivo"
+
+msgid "Welcome to the hammer interactive shell."
+msgstr "Bienvenido al shell interactivo de hammer."
+
+msgid "Type 'help' for usage information."
+msgstr "Escriba 'ayuda' para obtener información sobre el uso."
+
+msgid "Interactive shell"
+msgstr "Shell interactivo"
+
+msgid "SSL client certificate is set but the key is not."
+msgstr "El certificado de cliente SSL está definido pero no la clave."
+
+msgid "SSL client key is set but the certificate is not."
+msgstr "La clave de cliente SSL está definida pero no el certificado."
+
+msgid "SSL client authentication disabled."
+msgstr "Autenticación de cliente SSL desactivada."
+
+msgid "Could't read SSL client certificate %s."
+msgstr "No se pudo leer el certificado de cliente SSL %s."
+
+msgid "Could't read SSL client key %s."
+msgstr "No se pudo leer la clave de cliente SSL %s."
+
+msgid ""
+"Can't replace subcommand %<name>s (%<existing_class>s) with %<name>s "
+"(%<new_class>s)."
+msgstr ""
+"No es posible reemplazar el subcomando %<name>s (%<existing_class>s) por "
+"%<name>s (%<new_class>s)."
+
+msgid "Unknown option name '%s'."
+msgstr "Nombre de opción desconocido '%s'."
+
+msgid "You can't set all options %s at one time."
+msgstr "No se pueden definir todas las opciones %s al mismo tiempo."
+
+msgid "Options %s are required."
+msgstr "Se requieren las opciones %s."
+
+msgid "You can't set option %s."
+msgstr "No se puede definir la opción %s."
+
+msgid "Option %s is required."
+msgstr "Se requiere la opción %s."
+
+msgid "You can't set any of options %s."
+msgstr "No se puede definir ninguna de las opciones %s."
+
+msgid "At least one of options %s is required."
+msgstr "Se requiere al menos una de las opciones %s."
+
+msgid "One of options %s is required."
+msgstr "Se requiere una de las opciones %s."
+
+msgid "Only one of options %s can be set."
+msgstr "Solo se puede definir una de las opciones %s."
