@@ -143,7 +143,7 @@ Refer to foreman documentation to know more
 
 > To get started...
 > Fork the repo
-> start contributing by writing ansible playbooks for populating entities in foreman
+> start contributing by writing ansible playbooks for populating entities in foreman such adding user,architecture,hosts using hammer cli and ansible plugin
 
 ### Step 1
 
@@ -184,23 +184,10 @@ Refer to foreman documentation to know more
 
 Reach out to me at one of the following places!
 
-- Website at <a href="http://debuggingbug.wordpress.com" target="_blank">`debuggingbug.wordpress.com`</a>
+- Blog Website at <a href="http://debuggingbug.wordpress.com" target="_blank">`debuggingbug.wordpress.com`</a>
 - Twitter at <a href="http://twitter.com/varadsp" target="_blank">`@varadsp`</a>
 - Facebook at Varad Parlikar
 
 ---
 
-## Donations (Optional)
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/vsp/)
-
-
----
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2018 © <a href="http://debuggingbug.wordpress.com" target="_blank">VSPContributions</a>.
 
