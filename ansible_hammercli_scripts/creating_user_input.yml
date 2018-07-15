@@ -1,0 +1,8 @@
+- hosts: foreman.varadsp.com
+  tasks:
+  - name: Hammer command to create user
+    command: hammer user create --firstname={{username}} --lastname=parlikar --login={{username}} --password=redhat --mail=parlikarvarad@gmail.com --auth-source-id=1
+    args:
+     executable: /bin/bash
+    vars:
+     username: "{{ username }}"
