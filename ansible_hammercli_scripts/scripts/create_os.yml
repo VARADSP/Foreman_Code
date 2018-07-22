@@ -1,0 +1,9 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to create os
+    command: hammer -u {{user}} -p "{{pass}}" os create --architecture-ids "{{architecture_id}}" --architectures "{{architectures}}" --name "{{name}}" --major "{{major}}"
+    args:
+     executable: /bin/bash
+    vars:
+      user: "{{ user }}"
+
