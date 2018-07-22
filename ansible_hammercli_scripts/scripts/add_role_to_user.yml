@@ -1,0 +1,10 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to add role to user
+    command: hammer -u {{user}} -p "{{pass}}" user add-role --id "{{username}}" --role "{{rolename}}"
+    args:
+     executable: /bin/bash
+    vars:
+      user: "{{ user }}"
+                                                                         
+                                        

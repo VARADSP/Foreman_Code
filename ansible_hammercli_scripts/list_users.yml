@@ -1,6 +1,0 @@
-- hosts: foreman.varadsp.com
-  tasks:
-  - name: Hammer command to list all users
-    command: hammer user list
-    args:
-      executable: /bin/bash

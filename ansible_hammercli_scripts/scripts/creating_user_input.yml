@@ -1,0 +1,10 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to create user
+    command: hammer -u {{user}} -p "{{pass}}" user create --firstname={{username}} --lastname=foreman --login={{username}} --password="{{password}}" --mail="{{mailid}}" --auth-source-id=1
+    args:
+     executable: /bin/bash
+    vars:
+      username: "{{ username }}"
+      user: "{{ user }}"
+     

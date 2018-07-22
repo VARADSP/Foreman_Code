@@ -1,0 +1,8 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to list all roles
+    command: hammer -u "{{ user }}" -p "{{ pass }}" role list
+    register: command_output
+    args:
+      executable: /bin/bash
+  - debug: msg="{{ command_output.stdout }}"
