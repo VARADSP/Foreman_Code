@@ -1,6 +1,0 @@
-begin
-  Wirb.start
-  Hirb.enable
-rescue
-  warn 'Failed to load console gems, starting anyway'
-end

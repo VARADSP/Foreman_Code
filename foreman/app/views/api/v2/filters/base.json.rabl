@@ -1,3 +1,0 @@
-object @filter
-
-attributes :id

@@ -1,0 +1,8 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to list all hosts
+    command: hammer -u "{{ user }}" -p "{{ pass }}" host list
+    register: command_output
+    args:
+      executable: /bin/bash
+  - debug: msg="{{ command_output.stdout }}"

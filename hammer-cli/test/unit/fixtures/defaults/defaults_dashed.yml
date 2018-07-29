@@ -1,6 +1,0 @@
----
-:defaults:
-  :organization-id:
-    :provider: 'foreman'
-  :location-id:
-    :value: 2
