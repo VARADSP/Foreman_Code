@@ -1,0 +1,9 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to create host
+    command: hammer -u {{user}} -p "{{pass}}" host create --name "{{name}}" --interface 'primary=true,mac="{{mac_addr}}",ip="{{ip_addr}}",provision=true' --root-password "{{root_pass}}" --architecture-id "{{architecture_id}}" --operatingsystem-id "{{os_id}}" --domain-id "{{domain_id}}" --partition-table-id "{{partitiontable_id}}" --puppet-proxy-id "{{puppetproxy_id}}" --environment-id "{{environment_id}}" --medium-id "{{medium_id}}"
+    args:
+     executable: /bin/bash
+    vars:
+      user: "{{ user }}"
+

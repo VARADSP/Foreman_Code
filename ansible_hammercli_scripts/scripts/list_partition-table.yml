@@ -1,0 +1,8 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to list all partition-tables
+    command: hammer -u "{{ user }}" -p "{{ pass }}" partition-table list
+    register: command_output
+    args:
+      executable: /bin/bash
+  - debug: msg="{{ command_output.stdout }}"

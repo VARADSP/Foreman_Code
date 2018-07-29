@@ -1,0 +1,8 @@
+- hosts: "{{ variable_host }}"
+  tasks:
+  - name: Hammer command to list all operating systems
+    command: hammer -u "{{ user }}" -p "{{ pass }}" os list
+    register: command_output
+    args:
+      executable: /bin/bash
+  - debug: msg="{{ command_output.stdout }}"
