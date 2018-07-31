@@ -156,6 +156,11 @@ Refer to foreman documentation to know more
 - Install and configure foreman ---- **HACK AWAY!** 🔨🔨🔨
 
 ### Step 3
+- Use Ansible Roles to populate various entities in the foreman, Run 
+```shell
+$ ansible-playbook -i inventory runsetup.yml 
+```
+Using inventory file where foreman servers are mentioned,Use the roles in runsetup.yml as per the need.To use particular roles comment or uncomment them in the runsetup.yml.
 
 - 🔃 Create a new pull request using <a href="https://github.com/VARADSP/SForeman_Code/compare/" target="_blank">`https://github.com/VARADSP/Foreman_Code/compare/`</a>.
 
