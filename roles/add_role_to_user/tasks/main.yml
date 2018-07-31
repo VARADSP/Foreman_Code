@@ -1,0 +1,3 @@
+---
+# tasks file for /etc/ansible/roles/foremanhammer
+- import_tasks: add_role_to_user.yml

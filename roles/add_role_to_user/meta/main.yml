@@ -1,6 +1,6 @@
 galaxy_info:
   author: VaradParlikar
-  description: your description
+  description: Using Hammer cli and Ansible Roles to populate various entities in foreman
   company: VSP (optional)
 
   # If the issue tracker for your role is not on github, uncomment the

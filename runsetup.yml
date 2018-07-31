@@ -1,0 +1,6 @@
+---
+ - hosts: foreman_servers # servers mentioned in the inventory file
+   roles: # user and pass are admin credentials to access foreman # comment and uncomment the roles you want 
+    - {role: create_user,user: 'admin',pass: 'redhat',username: 'username',password: 'password'}# role to create user with provided username and password
+    - {role: add_role_to_user,user: 'admin',pass: 'redhat',username: 'username',rolename: 'password'}# role to create user with provided username and password
+
