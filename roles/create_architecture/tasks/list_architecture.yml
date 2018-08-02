@@ -1,0 +1,6 @@
+---
+- name: Hammer command to list architectures
+  command: hammer -u "{{user}}" -p "{{pass}}" architecture list
+  register: command_output
+- debug: msg="{{ command_output.stdout }}"
+

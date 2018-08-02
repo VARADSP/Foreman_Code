@@ -1,0 +1,4 @@
+---
+- name: Hammer command to create os
+  command: hammer -u "{{user}}" -p "{{pass}}" os create --architecture-ids="{{architecture_id}}" --architectures="{{architectures}}" --name="{{name1}}" --major="{{major}}"
+

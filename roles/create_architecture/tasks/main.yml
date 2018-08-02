@@ -1,0 +1,5 @@
+---
+# tasks file for /etc/ansible/roles/foremanhammer
+- import_tasks: list_architecture.yml
+- import_tasks: list_os.yml
+- import_tasks: create_architecture.yml

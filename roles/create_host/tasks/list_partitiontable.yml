@@ -1,0 +1,6 @@
+---
+- name: Hammer command to list partition table
+  command: hammer -u "{{user}}" -p "{{pass}}" partition-table list
+  register: command_output
+- debug: msg="{{ command_output.stdout }}"
+

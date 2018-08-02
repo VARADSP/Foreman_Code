@@ -1,0 +1,6 @@
+---
+- name: Hammer command to list roles
+  command: hammer -u "{{user}}" -p "{{pass}}" role list
+  register: command_output
+- debug: msg="{{ command_output.stdout }}"
+

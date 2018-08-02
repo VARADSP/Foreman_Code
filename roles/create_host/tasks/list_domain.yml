@@ -1,0 +1,6 @@
+---
+- name: Hammer command to list domain
+  command: hammer -u "{{user}}" -p "{{pass}}" domain list
+  register: command_output
+- debug: msg="{{ command_output.stdout }}"
+

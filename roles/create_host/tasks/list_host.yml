@@ -1,0 +1,6 @@
+---
+- name: Hammer command to list host
+  command: hammer -u "{{user}}" -p "{{pass}}" host list
+  register: command_output
+- debug: msg="{{ command_output.stdout }}"
+

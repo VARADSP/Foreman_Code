@@ -1,0 +1,11 @@
+---
+# tasks file for /etc/ansible/roles/foremanhammer
+- import_tasks: list_host.yml
+- import_tasks: list_puppetproxy.yml
+- import_tasks: list_domain.yml
+- import_tasks: list_environment.yml
+- import_tasks: list_partitiontable.yml
+- import_tasks: list_medium.yml
+- import_tasks: list_architecture.yml
+- import_tasks: list_os.yml
+- import_tasks: create_host.yml
