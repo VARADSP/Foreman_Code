@@ -126,7 +126,9 @@ Foreman provides comprehensive, interaction facilities including a web frontend,
 
 
 ## Documentation
-Refer to this url to know how to use the code!
+Refer to this url to know how to use the code !
+Documentation is created by using sphinx documentation tool.
+
 https://cdn.rawgit.com/VARADSP/Foreman_Code/8a70c14b/doc/_build/html/index.html
 
 Refer to foreman documentation to know more
