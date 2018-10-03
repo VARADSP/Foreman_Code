@@ -15,6 +15,7 @@ Contents:
    HammerCli
    Foreman
    AnsibleAutomation
+   AnsibleRoles
 
 
 
